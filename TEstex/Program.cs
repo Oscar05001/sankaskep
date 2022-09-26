@@ -33,7 +33,7 @@ skep = int.Parse(Console.ReadLine());
 Console.Clear();
 
 //Spelare 1 välje plan
-for(int re=0;re<skep-1; ++re)
+for(int re=0;re<skep; ++re)
 {
 Console.WriteLine("1  X| [1]  [2]  [3]  [4]");
 Console.WriteLine("_Y__|___________________");
@@ -83,7 +83,7 @@ Console.WriteLine("[4] | |"+ spelplan2[3,0]+"|  |"+ spelplan2[3,1]+"|  |"+ spelp
 Console.ReadLine();
 
 //Spelare 2 väljer plan
-for(int re=0;re<skep-1; ++re)
+for(int re=0;re<skep; ++re)
 {
 Console.WriteLine("2  X| [1]  [2]  [3]  [4]");
 Console.WriteLine("_Y__|___________________");
