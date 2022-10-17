@@ -99,23 +99,23 @@ Console.Clear();
 for(int re=0;re<skep;)
 {
 
-//X kordinaterna 
-Random rd = new Random();
-int Xrd = rd.Next(1,4);
+    //X kordinaterna 
+    Random rd = new Random();
+    int Xrd = rd.Next(1,4);
 
-//Y kordinaterna 
-Random rad = new Random();
-int Yrd = rad.Next(1,4);
+    //Y kordinaterna 
+    Random rad = new Random();
+    int Yrd = rad.Next(1,4);
 
-if(spelplan2[Yrd-1,Xrd-1]!="X")
-{
-spelplan2[Yrd-1,Xrd-1] ="X";
-Console.Clear();
-re = re+1;
-}
-else
-{
-}
+    if(spelplan2[Yrd-1,Xrd-1]!="X")
+    {
+        spelplan2[Yrd-1,Xrd-1] ="X";
+        Console.Clear();
+        re = re+1;
+    }
+    else
+    {
+    }
 
 }
 
